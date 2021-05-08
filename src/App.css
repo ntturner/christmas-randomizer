@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  background-color: #0CB04A;
+}
+
+.add-name-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 150px;
+}
+
+.add-name-button:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.main-card {
+  border: 5px solid #0CB04A;
+  box-shadow: 0 0 0 5px white;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.assignments {
+  width: 200px;
+  display: grid;
+  grid-template-columns: 70px 40px 70px;
 }
